@@ -1,0 +1,15 @@
+function estaBarreraAbierta() {
+	return (hayBolitas(Negro))
+}
+
+Cerrar barrera {
+	if (estaBarreraAbierta()) {
+		Sacar(Negro)
+	}
+}
+
+Abrir barrera {
+	if (not(estaBarreraAbierta()) {
+		Poner(Negro)
+	}
+}

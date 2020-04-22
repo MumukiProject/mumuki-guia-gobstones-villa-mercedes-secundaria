@@ -1,0 +1,35 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:ControlarBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:ControlarBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:Uses:estaBarreraAbierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:Uses:estaViniendoTren
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ControlarBarrera
+  inspection: Uses:estaBarreraAbierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ControlarBarrera
+  inspection: Uses:estaViniendoTren
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ControlarBarrera
+  inspection: Uses:CerrarBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ControlarBarrera
+  inspection: Uses:AbrirBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:ControlarBarrera
+  inspection: UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:estaViniendoTren
