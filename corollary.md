@@ -1,3 +1,3 @@
-¡Muy bien! :tada: Arreglaste el sistema de la barrera, aprendiste cómo se mueve el tren :bullettrain_front: y ayudaste a las personas a subir y bajar del tren :busts_in_silhouette:. Recordá que siempre es muy importante en los transportes públicos dejar bajar a las personas del mismo antes de subir :pray:. ¡Continuemos nuestro recorrido!  
+¡Muy bien! :tada: Arreglaste el sistema de la barrera, aprendiste cómo se mueve el tren :bullettrain_front: y ayudaste a las personas a subir y bajar de él :busts_in_silhouette:. Recordá siempre que es muy importante en los transportes públicos dejar bajar a las personas antes de subir :pray:. ¡Continuemos nuestro recorrido!  
 
 :park: **¡Manos a la maqueta! Sacá tu turno [acá](http://ingreso.maqueta.sanluis.edu.ar/).**
