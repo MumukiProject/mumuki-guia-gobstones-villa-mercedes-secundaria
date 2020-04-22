@@ -2,4 +2,4 @@
 
 ¡Excelente! Ya están todas las barreras cerradas para que pueda pasar el tren y no haya peligro. ¡A ver cómo se mueve! :eyes:
 
-> Creá el programa para que el tren avance hasta el final del tablero dejando subir y bajar a las personas en cada estación. Para eso, completá el procedimiento `DejarSubirYBajar` para que saque todas las bolitas rojas.
+> Creá el programa para que el tren avance hasta el final del tablero dejando subir y bajar a las personas en cada estación. Para eso, completá el procedimiento `DejarSubirYBajar` para que saque todas las bolitas rojas. Te dejamos hecha la función `estaEnLaEstacion` por si la llegas a necesitar.
