@@ -11,4 +11,4 @@ Los primeros trenes funcionaban a vapor y fueron evolucionando hasta llegar a se
      head 0 0
 </gs-board>
 
-> Creá el programa para que el tren (bolita azul) llegue al extremo superior derecho. Para eso, definí e invocá el procedimiento `MoverTren al` para que mueva al tren en la dirección que recibe por parámetro.
+> Creá el programa para que el tren (bolita azul) llegue al extremo superior derecho. Para eso, definí e invocá el procedimiento `MoverTrenAl` para que mueva al tren en la dirección que recibe por parámetro.
