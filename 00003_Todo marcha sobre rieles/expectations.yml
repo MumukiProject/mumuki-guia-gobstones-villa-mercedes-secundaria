@@ -17,9 +17,6 @@ expectations:
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: ControlarBarrera
-  inspection: Uses:estaBarreraAbierta
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ControlarBarrera
   inspection: Uses:estaViniendoTren
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: ControlarBarrera
