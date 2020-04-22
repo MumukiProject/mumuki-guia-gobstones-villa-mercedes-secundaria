@@ -1,8 +1,9 @@
 ---
-name: Villa Mercedes secundaria
+name: Villa Mercedes
 locale: es
 type: practice
 beta: false
+teacher_info: ''
 language: gobstones
 id_format: "%05d"
 order: []
