@@ -1,0 +1,35 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:estaBarreraAbierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:CerrarBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:AbrirBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:CerrarBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:AbrirBarrera
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:Uses:estaBarreraAbierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:program
+  inspection: Not:UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: CerrarBarrera
+  inspection: Uses:estaBarreraAbierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: AbrirBarrera
+  inspection: Uses:estaBarreraAbierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: CerrarBarrera
+  inspection: UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: AbrirBarrera
+  inspection: UsesIf

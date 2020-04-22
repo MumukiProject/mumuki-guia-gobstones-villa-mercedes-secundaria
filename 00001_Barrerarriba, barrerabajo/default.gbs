@@ -1,0 +1,5 @@
+program{
+   CerrarBarrera()
+   Mover(Este)
+   AbrirBarrera()
+}
