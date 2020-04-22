@@ -1,0 +1,21 @@
+function hayBarrera() {
+	return (hayBolitas(Rojo))
+}
+
+procedure ControlarBarrera() {
+	if (estaViniendoTren()) {
+		CerrarBarrera()
+	} else {
+		AbrirBarrera()
+	}
+}
+
+function estaBarreraAbierta() {
+	return (hayBolitas(Negro))
+}
+
+function estaViniendoTren() {
+	IrAlExtremo(Oeste)
+	Mover(Norte)
+	return (hayBolitas(Azul))
+}
