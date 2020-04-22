@@ -1,4 +1,4 @@
-Dejar subir y bajar {
+procedure DejarSubirYBajar() {
 	Mover (Norte)
 	/*COMPLETAR*/
 	Mover(Sur)
