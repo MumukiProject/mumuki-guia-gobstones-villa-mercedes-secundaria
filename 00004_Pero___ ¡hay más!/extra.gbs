@@ -27,7 +27,7 @@ procedure AbrirBarrera() {
 }
 
 function estaViniendoTren() {
-	IrAlExtremo(Oeste)
+	IrAlBorde(Oeste)
 	Mover(Norte)
 	return (hayBolitas(Azul))
 }
