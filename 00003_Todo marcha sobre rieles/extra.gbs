@@ -9,7 +9,7 @@ procedure CerrarBarrera {
 }
 
 procedure AbrirBarrera {
-	if (not(estaBarreraAbierta()) {
+	if (not(estaBarreraAbierta())) {
 		Poner(Negro)
 	}
 }
