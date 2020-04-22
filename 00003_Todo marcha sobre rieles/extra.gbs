@@ -2,13 +2,13 @@ function estaBarreraAbierta() {
 	return (hayBolitas(Negro))
 }
 
-Cerrar barrera {
+procedure CerrarBarrera {
 	if (estaBarreraAbierta()) {
 		Sacar(Negro)
 	}
 }
 
-Abrir barrera {
+procedure AbrirBarrera {
 	if (not(estaBarreraAbierta()) {
 		Poner(Negro)
 	}
