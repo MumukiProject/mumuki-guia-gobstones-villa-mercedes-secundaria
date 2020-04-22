@@ -1,0 +1,10 @@
+procedure MoverTrenAl(direccion) {
+	Sacar(Azul)
+	Mover(direccion)
+	Poner(Azul)
+}
+
+function estaEnLaEstacion() {
+	Mover(Norte)
+	return (hayBolitas(Rojo))
+}

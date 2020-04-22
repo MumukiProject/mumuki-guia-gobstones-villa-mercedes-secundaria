@@ -1,0 +1,5 @@
+Dejar subir y bajar {
+	Mover (Norte)
+	/*COMPLETAR*/
+	Mover(Sur)
+}
