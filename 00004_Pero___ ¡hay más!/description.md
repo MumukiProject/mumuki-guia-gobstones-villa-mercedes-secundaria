@@ -14,6 +14,7 @@ Hasta ahora cerramos solo una barrera pero, como el recorrido del tren es largo 
      cell 2 0 Rojo 1 Negro 1 
      cell 3 0 Rojo 1 Negro 1 
      cell 5 0 Rojo 1 
+     head 0 0
 </gs-board>
 
 > Dado el tablero anterior, creá el programa para controlar todas las barreras teniendo en cuenta que la longitud del tablero puede cambiar. Comenzaremos en el extremo inferior izquierdo y te dejamos hecha la función `hayBarrera` por si la llegas a necesitar.
