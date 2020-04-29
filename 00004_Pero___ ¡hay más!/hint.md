@@ -1,0 +1,1 @@
+Las barreras sólo debemos controlarse si estamos sobre una barrera.
