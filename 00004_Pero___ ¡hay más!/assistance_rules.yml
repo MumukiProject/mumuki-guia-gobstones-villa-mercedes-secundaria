@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - program Uses:hayBarrera
+  then: tené en cuenta que no siempre tenemos que controlar la barrera. Sólo debemos
+    hacerlo si hay una barrera
