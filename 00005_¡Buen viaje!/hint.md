@@ -1,1 +1,0 @@
-El tren sólo debe dejar subir y bajar personas, si está en la estación.
